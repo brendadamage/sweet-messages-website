@@ -1,0 +1,104 @@
+/* General Page Styling */
+body {
+    background-color: #cf1c94;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #d60ea4;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Question Styling */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+h2:hover {
+    color: #ff66b2;
+    transition: color 0.3s ease;
+}
+
+/* Buttons Styling */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #ff66b2, #ff99cc);
+    color: white;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(45deg, #ff3366, #ff6699);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+/* Continue Button Styling */
+#continueButton {
+    background: linear-gradient(45deg, #ffb3cc, #ff66b2);
+}
+
+#continueButton:hover {
+    background: linear-gradient(45deg, #ff6699, #ff3366);
+}
+
+/* Sweet Message Styling */
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff66b2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* Final Apology Message Styling */
+#finalButton {
+    background-color: #ffccff;
+    color: #ff66b2;
+}
+
+#finalButton:hover {
+    background-color: #ff99cc;
+    color: white;
+}
+
+#finalButton:focus {
+    outline: none;
+}
